@@ -14,26 +14,33 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="header-flex">
-                <a class="logo text" href="./index.html">Web<span class="logo-black">Studio</span>
-                </a>
-                <ul class="header-nav-list list header-flex">
-                    <li class="header-item"><a class="header-nav-item text" href="./index.html">Студия</a></li>
-                    <li class="header-item"><a class="header-nav-link text" href="./portfolio.html">Портфолио</a></li>
-                    <li class="header-item"><a class="header-nav-item text" href="">Контакты</a></li>
-                </ul>
-            </nav>
-            <div class="header-connect">
-                <ul class="list header-flex">
-                    <li class="header-contact-item"><a class="header-nav-contact text" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="header-contact-item"><a class="header-nav-contact text" href="tel:+380961111111">+38 096 111
-                            11 11</a></li>
-                </ul>
-            </div>
+<header class="header">
+    <div class="container">
+        <nav class="header-flex">
+            <a class="logo text" href="./index.html">Web<span class="logo-black">Studio</span>
+            </a>
+            <ul class="header-nav-list list header-flex">
+                <li class="header-item"><a class="header-nav-link text" href="./index.html">Студия</a></li>
+                <li class="header-item"><a class="header-nav-item text" href="./portfolio.html">Портфолио</a></li>
+                <li class="header-item"><a class="header-nav-item text" href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header-connect">
+            <ul class="list header-flex">
+                <li class="header-contact-item"><a class="header-nav-contact text" href="mailto:info@devstudio.com">
+                        <svg class="contact-link-icon" width="16" height="12">
+                            <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com</a>
+                </li>
+                <li class="header-contact-item"><a class="header-nav-contact text" href="tel:+380961111111">
+                        <svg class="contact-link-icon" width="10" height="16">
+                            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11</a></li>
+            </ul>
         </div>
-    </header>
+    </div>
+</header>
     <main>
     <section class="portfolio">
         <div class="container">
@@ -116,19 +123,50 @@
 </main>
 <footer class="footer">
     <div class="container">
-        <a class="logo-footer text" href="">Web<span class="logo-white">Studio</span></a>
-
-        <address class="footer-address">
-            <ul class="footer-list list">
-                <li class="footer-item"><a class="footer-text text" href="https://goo.gl/maps/fxkEnHUCGzXbZ7778"
-                        target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26 </a></li>
-
-                <li class="footer-item"><a class="footer-contact text" href="mailto:info@devstudio.com">
-                        info@devstudio.com</a></li>
-                <li class="footer-item"><a class="footer-contact text" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+        <div class="flex-box">
+            <div class="footer-adress-flex">
+                <a class="logo-footer text" href="">Web<span class="logo-white">Studio</span></a>
+                <address class="footer-address">
+                    <ul class="footer-list list">
+                        <li class="footer-item"><a class="footer-text text" href="https://goo.gl/maps/fxkEnHUCGzXbZ7778"
+                                target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26 </a></li>
+                        <li class="footer-item"><a class="footer-contact text" href="mailto:info@devstudio.com">
+                                info@devstudio.com</a></li>
+                        <li class="footer-item"><a class="footer-contact text" href="tel:+380961111111">+38 096 111 11
+                                11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-soc-flex">
+                <p class="foter-soc-text">присоединяйтесь</p>
+                <ul class="footer-soc-list list">
+                    <li class="footer-soc-item"><a href="" class="footer-soc-link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item"><a href="" class="footer-soc-link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item"><a href="" class="footer-soc-link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item"><a href="" class="footer-soc-link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>
 
