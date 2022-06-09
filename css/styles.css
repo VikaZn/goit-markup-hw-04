@@ -193,8 +193,8 @@ padding-bottom: 32px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color:#188ce8;
-    background-color: var(--background-color-general);
+    color:var(--third-text-color);
+    background-color: #188ce8;
     cursor: pointer;
 
     display: inline-block;
@@ -206,8 +206,8 @@ padding-bottom: 32px;
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: var(--third-text-color);
-    background-color: #188ce8;
+    color: #188ce8;
+    background-color: var(--background-color-general) ;
 }
 
 
@@ -410,6 +410,7 @@ background-color: var(--accent-color);
 display: flex;
     margin: 0;
     padding: 0;
+align-items: baseline;
 
 
 }
@@ -428,7 +429,7 @@ display: flex;
         display: inline-block;
 }
 .footer-address {
-    margin-top: 20px;
+
 }
 .footer-contact {
     font-family: 'Roboto';
@@ -464,7 +465,7 @@ display: flex;
     margin-bottom: 20px;
 }
 .foter-soc-text {
-    padding:10px 0px 10px 0px;
+    
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -516,6 +517,7 @@ display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .portfolio-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -531,10 +533,9 @@ display: flex;
     min-width: 73px;
     border-radius: 4px;
     border: 1px solid transparent;
-
-    
     
 }
+
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     background-color: #188ce8;
@@ -562,12 +563,12 @@ display: flex;
     width: 370px;
     flex-basis: calc(100% / 3 - 30px);
 }
-.portfolio-item:hover,
-.portfolio-item:focus {
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
@@ -629,6 +630,8 @@ padding-bottom: 94px;
     width: 170px;
     height: 90px;
     border: 1px solid #afb1b8;
+    outline: transparent;
+    border-radius: 4px;
     color: #afb1b8;
 
     
