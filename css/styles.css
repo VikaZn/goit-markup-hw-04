@@ -74,6 +74,12 @@ ul {
         padding-bottom: 32px;
     color: var(--second-text-color);
 }
+.header-nav-item {
+    color: var(--first-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.cur-nav,
 .header-nav-item:hover,
 .header-nav-item:focus,
 .header-nav-link:hover,
@@ -97,17 +103,6 @@ ul {
 }  
     
 
-
-.header-nav-link {
-    color: var(--accent-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-.header-nav-item {
-color: var(--first-text-color);
-padding-top: 32px;
-padding-bottom: 32px;
-}
 .contact-link-icon {
     margin-right: 10px;
     justify-content: center;
@@ -535,7 +530,7 @@ align-items: baseline;
     border: 1px solid transparent;
     
 }
-
+.cur-btn,
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     background-color: #188ce8;
